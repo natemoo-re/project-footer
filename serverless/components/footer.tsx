@@ -13,7 +13,7 @@ const Footer = ({ children }: { children: any }) => (
       footer {
         margin: 0;
         padding: 1em 0;
-        color: rgba(0, 0, 0, 0.87);
+        color: #24292e;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         width: 100%;
         flex: 1 1 100%;
@@ -32,7 +32,7 @@ const Footer = ({ children }: { children: any }) => (
       }
 
       p {
-        color: rgba(0, 0, 0, 0.54);
+        color: #24292e;
         font-size: 1em;
       }
 
@@ -43,7 +43,7 @@ const Footer = ({ children }: { children: any }) => (
       }
 
       footer .icon-heart {
-        fill: #e91e63;
+        fill: #cb2431;
         display: inline-block;
         animation: heartbeat 3s ease-in-out infinite;
       }
