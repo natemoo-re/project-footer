@@ -1,3 +1,3 @@
-# Proejct Footer
+# Project Footer
 
-<img src="https://nmoo-footer.vercel.app" width="1280" height="64">
+<img src="https://nmoo-footer.vercel.app" width="100%">
