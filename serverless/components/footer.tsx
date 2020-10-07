@@ -8,7 +8,7 @@ export const Heart = () => (
 );
 
 const Footer = ({ children }: { children: any }) => (
-  <Image width="1080" height="102">
+  <Image width="900" height="128">
     <style>{`
       footer {
         margin: 0;
@@ -33,7 +33,7 @@ const Footer = ({ children }: { children: any }) => (
 
       p {
         color: rgba(0, 0, 0, 0.54);
-        font-size: 0.75em;
+        font-size: 1em;
       }
 
       footer svg {
