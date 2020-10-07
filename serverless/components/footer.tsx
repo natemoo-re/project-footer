@@ -8,24 +8,24 @@ export const Heart = () => (
 );
 
 const Footer = ({ children }: { children: any }) => (
-  <Image width="1280" height="64">
+  <Image width="1080" height="102">
     <style>{`
       footer {
+        margin: 0;
         padding: 1em 0;
         color: rgba(0, 0, 0, 0.87);
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        background: #ebf1f9;
         width: 100%;
-        height: 100%;
+        flex: 1 1 100%;
       }
 
       footer .container {
         display: flex;
 
-        flex-flow: column nowrap;
+        flex-flow: row nowrap;
         align-items: center;
         justify-content: space-between;
-        max-width: 1216px;
+        max-width: calc(100% - 32px);
         height: 64px;
         margin: auto;
         padding: 24px 12px;
@@ -65,14 +65,16 @@ const Footer = ({ children }: { children: any }) => (
         }
       }
     `}</style>
-    <div className="container">
-      <p>
-        Built with <Heart /> by Nate Moore
-      </p>
-      <p className="license">
-        <span>© {new Date().getFullYear()}</span>
-      </p>
-    </div>
+    <footer>
+      <div className="container">
+        <p>
+          Built with <Heart /> by Nate Moore
+        </p>
+        <p className="license">
+          <span>© {new Date().getFullYear()}</span>
+        </p>
+      </div>
+    </footer>
   </Image>
 );
 
